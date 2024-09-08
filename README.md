@@ -1,11 +1,18 @@
-# next-template
+<p align="center">
+  <img alt="MCSR Logo" src="public/icon_x256.png" />
+</p>
 
-A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
+# MCSR Ranked Webpage
+
+The Website of MCSR Ranked, hosted at [mcsrranked.com](https://mcsrranked.com/).
 
 ## Usage
 
 ```bash
-npx create-next-app -e https://github.com/shadcn/next-template
+git clone git@github.com:MCSR-Ranked/webpage.git
+cd webpage
+npm install
+npm run dev
 ```
 
 ## Features
