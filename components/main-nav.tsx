@@ -13,7 +13,7 @@ interface MainNavProps {
 
 export function MainNav({ items }: MainNavProps) {
   return (
-    <div className="hidden gap-6 md:flex md:gap-10">
+    <div className="hidden gap-6 md:flex md:gap-10 h-full">
       <Link href="/" className="flex items-center space-x-2">
         <Image src={"/icon_x256.png"} alt="MCSR Logo" width={48} height={48} />
         <span className="inline-block font-bold">{siteConfig.name}</span>

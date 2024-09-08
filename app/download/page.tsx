@@ -146,17 +146,17 @@ export default function DownloadPage() {
                 Download only Mod File (.jar)
               </h2>
               <p className="text-sm">
-                If you want to download only mod file(.jar), go to the Modrinth
+                If you want to download only mod file (.jar), go to the Modrinth
                 page.
               </p>
-              <Button className="mt-4">
-                <Link
-                  href="https://modrinth.com/mod/mcsr-ranked/versions/"
-                  target="_blank"
-                >
-                  Download (Modrinth)
-                </Link>
-              </Button>
+              <Link
+                href="https://modrinth.com/mod/mcsr-ranked/versions/"
+                target="_blank"
+              >
+                <Button className="mt-4">
+                    Download (Modrinth)
+                </Button>
+              </Link>
             </div>
             <div className="w-full px-4 lg:w-1/2">
               <h2 className="text-2xl font-semibold">
